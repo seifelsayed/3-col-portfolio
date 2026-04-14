@@ -1,0 +1,11 @@
+/* Custom styles that Bootstrap cannot handle */
+
+/* Add spacing for fixed-top navbar */
+body {
+    padding-top: 56px;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
