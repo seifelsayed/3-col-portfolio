@@ -9,3 +9,32 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 75vh;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+}
